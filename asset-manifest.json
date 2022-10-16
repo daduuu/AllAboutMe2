@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/AllAboutMe2/static/css/main.98a170ae.css",
+    "main.js": "/AllAboutMe2/static/js/main.7445955b.js",
+    "static/js/787.5809834d.chunk.js": "/AllAboutMe2/static/js/787.5809834d.chunk.js",
+    "static/media/code.png": "/AllAboutMe2/static/media/code.69a7345af8d8ec48f5bf.png",
+    "static/media/propic.jpg": "/AllAboutMe2/static/media/propic.b99c2135877607fd1bb3.jpg",
+    "static/media/gmaillogo.svg": "/AllAboutMe2/static/media/gmaillogo.4b8ce376cf009e5393a038218d6f801d.svg",
+    "index.html": "/AllAboutMe2/index.html",
+    "main.98a170ae.css.map": "/AllAboutMe2/static/css/main.98a170ae.css.map",
+    "main.7445955b.js.map": "/AllAboutMe2/static/js/main.7445955b.js.map",
+    "787.5809834d.chunk.js.map": "/AllAboutMe2/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98a170ae.css",
+    "static/js/main.7445955b.js"
+  ]
+}
