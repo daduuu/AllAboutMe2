@@ -25,7 +25,7 @@
   color: white;
 }
 #root{
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond';
 }
 
 .App-link {
@@ -60,5 +60,28 @@
 }
 .viewport{
   height: 70vh;
+}
+#propic{
+  width: 15vh;
+  height: 20vh;
+  border-radius: 1vh;;
+}
+.ucla{
+  width: 10vh;
+  height: 10vh;
+}
+.contactPhotos{
+  width: 10vh;
+  height: 10vh;
+}
+.contactPhotos2{
+  width: 9vh;
+  height: 9vh;
+}
+.centered{
+  text-align: center;
+}
+.nb{
+  padding-bottom: 5vh;
 }
 

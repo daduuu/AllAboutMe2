@@ -14,30 +14,34 @@ class Contact extends Component {
     render() {
         return (
             <div>
+                <div className={"nb"}>
+
+                </div>
                 <FadeIn>
 
                     <Row>
-                        <Col></Col>
-                        <Col>
-                            <h1>Contact Me!</h1>
+                        <Col lg={4}></Col>
+                        <Col lg={4}>
+                            <h1 className={"centered"}>Contact Me!</h1>
                         </Col>
-                        <Col></Col>
+                        <Col lg={4}></Col>
                     </Row>
                     <Row>
-                        <Col></Col>
-                        <Col>
+                        <Col lg={5}></Col>
+                        <Col lg={1}>
                             <a href="mailto:daviddu0425@gmail.com" target="_blank">
-                                <img src={gmail} alt="Gmail Link" />
+                                <img src={gmail} alt="Gmail Link" className={"contactPhotos"}/>
                             </a>
 
                         </Col>
-                        <Col>
+                        <Col lg={1}>
                             <a href="https://www.linkedin.com/in/david-duu" target="_blank">
-                                <img src={linkedin} alt="LinkedIn Link" />
+                                <img src={linkedin} alt="LinkedIn Link" className={"contactPhotos2"} />
                             </a>
                         </Col>
-                        <Col></Col>
+                        <Col lg={5}></Col>
                     </Row>
+
 
                 </FadeIn>
             </div>

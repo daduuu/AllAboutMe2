@@ -4,6 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FadeIn from "react-fade-in";
 import link from "./img/link.png"
+import {Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class Projects extends Component {
     constructor(props) {
@@ -12,6 +14,9 @@ class Projects extends Component {
     render() {
         return (
             <div>
+                <div className={"nb"}>
+
+                </div>
                 <FadeIn>
 
                     <Row>
@@ -23,15 +28,12 @@ class Projects extends Component {
                             <p>The code for this website!</p>
                         </Col>
                         <Col>
-                            <h2> Hanoi_The_N_Towers <a target="_blank"
-                                                       href="https://github.com/daduuu/collection_of_algorithms/blob/master/hanoi.cpp">
+                            <h2> Sudokle <a target="_blank" href="https://github.com/daduuu/sudokle">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
-                            <p>A project to implement the currently unproven solution to the problem of
-                                the towers of Hanoi, with there being n towers. Uses DP and recursion to implement the
-                                solution where you find k optimal towers to move to the next tower, then move the rest.</p>
-
+                            <p>A Modernized Daily Sudokle Web Game. A new sudokle puzzle is created daily to challenge players. Players with the best times are displayed on the leaderboards. Players can practice by generating a puzzle and solving. Built using NodeJS, React, Express, mySql, and Javascript. </p>
                         </Col>
+
                         <Col></Col>
                     </Row>
                     <Row>
@@ -46,14 +48,16 @@ class Projects extends Component {
 
                         </Col>
                         <Col>
-                            <h2> deathSwapMultiple <a target="_blank" href="https://github.com/daduuu/deathSwapMultiple">
+                            <h2> Hanoi_The_N_Towers <a target="_blank"
+                                                       href="https://github.com/daduuu/collection_of_algorithms/blob/master/hanoi.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
-                            <p> A Minecraft Plugin that shuffles mulitple player's positions with each
-                                other randomly after 5 minutes. Originally written for games like Minecraft Death Swap!</p>
-
+                            <p>A project to implement the currently unproven solution to the problem of
+                                the towers of Hanoi, with there being n towers. Uses DP and recursion to implement the
+                                solution where you find k optimal towers to move to the next tower, then move the rest.</p>
 
                         </Col>
+
                         <Col></Col>
                     </Row>
                     <Row>
@@ -77,7 +81,7 @@ class Projects extends Component {
                         </Col>
                         <Col></Col>
                     </Row>
-                    <Row>
+                    <Row className={"nb"}>
                         <Col></Col>
                         <Col>
                             <h2> Josepheus <a target="_blank" href="https://github.com/daduuu/collection_of_algorithms/blob/master/josephus.cpp">
@@ -98,6 +102,19 @@ class Projects extends Component {
 
                         </Col>
                         <Col></Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg={5}></Col>
+                        <Col lg={1}>
+                            <Button>
+                                <Link to="/Contact" style={{color : "white"}}>
+                                    Contact Me!
+                                </Link>
+                            </Button>
+                        </Col>
+                        <Col lg={6}></Col>
+
                     </Row>
 
                 </FadeIn>

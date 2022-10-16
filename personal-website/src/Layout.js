@@ -56,6 +56,7 @@ class Layout extends Component {
                         </Navbar.Offcanvas>
                     </Container>
                 </Navbar>
+
                 <Outlet />
             </>
         );

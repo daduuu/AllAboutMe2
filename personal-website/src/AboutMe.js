@@ -4,6 +4,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FadeIn from "react-fade-in";
 import bialigy from './img/bialigy.png'
+import propic from './img/propic.jpg'
+import ucla from './img/ucla.jpeg'
+import {Link} from "react-router-dom";
+import {Button} from "react-bootstrap";
 
 class AboutMe extends Component {
     constructor(props) {
@@ -12,48 +16,69 @@ class AboutMe extends Component {
     render() {
         return (
             <div>
+                <div className={"nb"}>
+
+                </div>
                 <FadeIn delay={50}>
 
 
                     <Row>
-                        <Col></Col>
-                        <Col>
+                        <Col lg={4}></Col>
+                        <Col lg={3}>
                             <h1 className="hp1">About Me</h1>
                             <p className="f2">I am currently pursuing a Computer Science B.S degree at UCLA. I love writing complex and intriguing programs that solve
                                 various problems or tasks. I have a strong passion for both computer science and math and I love how
                                 they go hand in hand in solving various problems. In my free time I like to cook and practice
                                 Tennis.</p>
                         </Col>
-                        <Col></Col>
+                        <Col lg={5}>
+                            <img src={propic} alt={"Profile Pic"} id={"propic"}/>
+                        </Col>
 
                     </Row>
-                    <Row>
-                        <Col></Col>
-                        <Col>
+                    <Row className={"nb"}>
+                        <Col lg={4}></Col>
+                        <Col lg={3}>
                             <h1>What have I've been up to?</h1>
                         </Col>
-                        <Col></Col>
+                        <Col lg={5}></Col>
                     </Row>
-                    <Row>
-                        <Col></Col>
-                        <Col>
-                            <p>Image</p>
+                    <Row className={"nb"}>
+                        <Col lg={4}></Col>
+                        <Col lg={3}>
+                            <p><img src={ucla} alt="Ucla Image" class="ucla" /></p>
                         </Col>
-                        <Col>
+                        <Col lg={2}>
                             <p>UCLA</p>
-                            <p>UCLA description</p>
+                            <p>Computer Science B.S</p>
+                            <p>I've taken CS111, CS180, CS35L, CS33, Math 115A, Math 131A, Math 61</p>
                         </Col>
-                        <Col></Col>
+                        <Col lg={3}></Col>
 
                     </Row>
                     <Row>
-                        <Col></Col>
-                        <Col><img src={bialigy} alt="bialigy image" /></Col>
-                        <Col>
+                        <Col lg={4}></Col>
+                        <Col lg={3}><img src={bialigy} alt="bialigy image" /></Col>
+                        <Col lg={2}>
                             <p>Bialigy.com</p>
-                            <p>Bialigy Description</p>
+                            <p>Full Stack Developer</p>
+                            <p>Created a website based communication board using Javascript, NodeJS/React, and mySQL to facilitate communication between 500+ university students and the instructors at Bialigy. I also developed a website based chemical equation balancer tool for university students to use.
+                            </p>
                         </Col>
-                        <Col></Col>
+                        <Col lg={3}></Col>
+
+                    </Row>
+                    <Row className={"nb"}>
+                        <Col lg={5}></Col>
+                        <Col lg={3}>
+                            <Button>
+                                <Link to="/Projects" style={{color : "white"}}>
+                                    Check Out My Projects!
+                                </Link>
+                            </Button>
+                        </Col>
+                        <Col lg={3}></Col>
+
                     </Row>
                 </FadeIn>
             </div>
