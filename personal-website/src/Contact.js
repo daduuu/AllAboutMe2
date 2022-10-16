@@ -3,6 +3,8 @@ import './App.css';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FadeIn from "react-fade-in";
+import gmail from "./img/gmaillogo.svg"
+import linkedin from "./img/linkedinlogo.jpg"
 
 
 class Contact extends Component {
@@ -25,13 +27,13 @@ class Contact extends Component {
                         <Col></Col>
                         <Col>
                             <a href="mailto:daviddu0425@gmail.com" target="_blank">
-                                <img src="img/gmaillogo.svg" alt="Gmail Link" />
+                                <img src={gmail} alt="Gmail Link" />
                             </a>
 
                         </Col>
                         <Col>
                             <a href="https://www.linkedin.com/in/david-duu" target="_blank">
-                                <img src="img/linkedinlogo.jpg" alt="LinkedIn Link" />
+                                <img src={linkedin} alt="LinkedIn Link" />
                             </a>
                         </Col>
                         <Col></Col>

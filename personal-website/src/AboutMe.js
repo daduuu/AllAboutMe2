@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FadeIn from "react-fade-in";
+import bialigy from './img/bialigy.png'
 
 class AboutMe extends Component {
     constructor(props) {
@@ -47,7 +48,7 @@ class AboutMe extends Component {
                     </Row>
                     <Row>
                         <Col></Col>
-                        <Col><img src="img/bialigy.png" alt="bialigy image" /></Col>
+                        <Col><img src={bialigy} alt="bialigy image" /></Col>
                         <Col>
                             <p>Bialigy.com</p>
                             <p>Bialigy Description</p>

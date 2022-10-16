@@ -13,36 +13,28 @@ class IntroductionPanel extends Component {
     }
     render() {
         return (
-            <div>
-                <Row>
-                    <Col></Col>
+            <div class={"code viewport100"} >
+                <Row className={"align-items-center viewport100"}>
                     <Col>
                         <FadeIn>
                             <TypeAnimation
                                 sequence={[
                                     'Hello! My Name Is David Du',
-                                    500
+                                    200
                                 ]}
                                 wrapper="div"
                                 cursor={true}
                                 repeat={1}
-                                style={{ fontSize: '2em' }}
+                                style={{ fontSize: '2em'}}
                             />
                         </FadeIn>
-
-                    </Col>
-                    <Col></Col>
-                </Row>
-                <Row>
-                    <Col></Col>
-                    <Col>
                         <FadeIn delay={1700}>
                             <p>Student Developer</p>
                         </FadeIn>
-                    </Col>
-                    <Col></Col>
-                </Row>
 
+                    </Col>
+
+                </Row>
 
             </div>
 

@@ -27,7 +27,7 @@ class Layout extends Component {
     render(){
         return(
             <>
-                <Navbar key="lg" bg="dark" variant="dark" expand="lg">
+                <Navbar key="lg" bg="black" variant="dark" expand="lg">
                     <Container>
                         <Navbar.Brand as={Link} to="/">David Du</Navbar.Brand>
                         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" onClick={this.handleShow}/>
