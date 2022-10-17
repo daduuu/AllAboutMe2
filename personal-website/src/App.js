@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter, Link, NavLink, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Link, NavLink, Route, Routes, HashRouter} from "react-router-dom";
 import './App.css';
 import IntroductionPanel from "./IntroductionPanel";
 import AboutMe from "./AboutMe";
@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
         <div>
-          <BrowserRouter>
+          <HashRouter>
             <div id={"navBar"}>
               <Routes id={"links"}>
                 <Route path="/" element={<Layout/>}>
@@ -26,7 +26,7 @@ class App extends Component {
                 </Route>
               </Routes>
             </div>
-          </BrowserRouter>
+          </HashRouter>
         </div>
 
     );
