@@ -22,13 +22,13 @@ class Projects extends Component {
 
                     <Row>
                         <Col></Col>
-                        <Col>
+                        <Col lg={4}>
                             <h2> AllAboutMe2 <a target="_blank" href="https://github.com/daduuu/AllAboutMe2">
                                 <img src={link} alt="Github Link" class="link"/>
                             </a></h2>
                             <p>The code for this website!</p>
                         </Col>
-                        <Col>
+                        <Col lg={3}>
                             <h2> Sudokle <a target="_blank" href="https://github.com/daduuu/sudokle">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
@@ -39,7 +39,7 @@ class Projects extends Component {
                     </Row>
                     <Row>
                         <Col></Col>
-                        <Col>
+                        <Col lg={4}>
                             <h2> Tetrominoes_placer_2d <a target="_blank" href="https://github.com/daduuu/collection_of_algorithms/blob/master/tetrominoes_placer_2d.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
@@ -47,7 +47,7 @@ class Projects extends Component {
                                 y board using “dancing links” from David Knuth</p>
 
                         </Col>
-                        <Col>
+                        <Col lg={3}>
                             <h2> Hanoi_The_N_Towers <a target="_blank"
                                                        href="https://github.com/daduuu/collection_of_algorithms/blob/master/hanoi.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
@@ -62,7 +62,7 @@ class Projects extends Component {
                     </Row>
                     <Row>
                         <Col></Col>
-                        <Col>
+                        <Col lg={4}>
                             <h2> Floyd's Algorithm <a target="_blank" href="https://github.com/daduuu/collection_of_algorithms/blob/master/floyd.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
@@ -72,7 +72,7 @@ class Projects extends Component {
 
 
                         </Col>
-                        <Col>
+                        <Col lg={3}>
                             <h2> 2sat <a target="_blank" href="https://github.com/daduuu/collection_of_algorithms/blob/master/2sat.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
@@ -83,7 +83,7 @@ class Projects extends Component {
                     </Row>
                     <Row className={"nb"}>
                         <Col></Col>
-                        <Col>
+                        <Col lg={4}>
                             <h2> Josepheus <a target="_blank" href="https://github.com/daduuu/collection_of_algorithms/blob/master/josephus.cpp">
                                 <img src={link} alt="Github Link" className="link"/>
                             </a></h2>
@@ -92,7 +92,7 @@ class Projects extends Component {
 
 
                         </Col>
-                        <Col>
+                        <Col lg={3}>
 
                             <h2> compassTracking <a target="_blank" href="https://github.com/daduuu/compassTracking">
                                 <img src={link} alt="Github Link" className="link"/>
