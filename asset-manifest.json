@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.7400ebda.css",
-    "main.js": "/static/js/main.b765917d.js",
+    "main.js": "/static/js/main.e48dabdb.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/code.png": "/static/media/code.69a7345af8d8ec48f5bf.png",
     "static/media/propic.jpg": "/static/media/propic.b99c2135877607fd1bb3.jpg",
     "static/media/gmaillogo.svg": "/static/media/gmaillogo.4b8ce376cf009e5393a038218d6f801d.svg",
     "index.html": "/index.html",
     "main.7400ebda.css.map": "/static/css/main.7400ebda.css.map",
-    "main.b765917d.js.map": "/static/js/main.b765917d.js.map",
+    "main.e48dabdb.js.map": "/static/js/main.e48dabdb.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7400ebda.css",
-    "static/js/main.b765917d.js"
+    "static/js/main.e48dabdb.js"
   ]
 }
