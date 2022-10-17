@@ -69,15 +69,15 @@ class AboutMe extends Component {
 
                     </Row>
                     <Row className={"nb"}>
-                        <Col lg={5}></Col>
-                        <Col lg={3}>
-                            <Button>
-                                <Link to="/Projects" style={{color : "white"}}>
-                                    Check Out My Projects!
-                                </Link>
-                            </Button>
+                        <Col></Col>
+                        <Col>
+                            <Link to="/Projects" style={{color : "white"}} className={"d-flex justify-content-center"}>
+                                <button type="button" className="btn btn-dark button">
+                                    <span>Check Out My Projects!</span>
+                                </button>
+                            </Link>
                         </Col>
-                        <Col lg={3}></Col>
+                        <Col></Col>
 
                     </Row>
                 </FadeIn>

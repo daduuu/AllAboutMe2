@@ -33,12 +33,11 @@ class IntroductionPanel extends Component {
                                 <p>Student Developer</p>
                             </FadeIn>
                             <FadeIn delay={2000}>
-                                <Button>
-                                    <Link to="/AboutMe" style={{color : "white"}}>
-                                        Learn More About Me!
-
-                                    </Link>
-                                </Button>
+                                <Link to="/AboutMe" style={{color : "white"}} className={"d-flex justify-content-center"}>
+                                    <button type="button" className="btn btn-dark button">
+                                        <span>Learn More About Me!</span>
+                                    </button>
+                                </Link>
 
                             </FadeIn>
 

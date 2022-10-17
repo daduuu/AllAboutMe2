@@ -22,22 +22,25 @@ class Contact extends Component {
                     <Row>
                         <Col lg={4}></Col>
                         <Col lg={4}>
-                            <h1 className={"centered"}>Contact Me!</h1>
+                            <h1 className={"centered nb"}>Thanks for checking out my website!</h1>
+                            <h2 className={"centered"}>Contact Me!</h2>
                         </Col>
                         <Col lg={4}></Col>
                     </Row>
                     <Row>
                         <Col lg={5}></Col>
-                        <Col lg={1}>
-                            <a href="mailto:daviddu0425@gmail.com" target="_blank">
-                                <img src={gmail} alt="Gmail Link" className={"contactPhotos"}/>
-                            </a>
+                        <Col lg={2}>
+                            <div className={"text-center"}>
+                                <a href="mailto:daviddu0425@gmail.com" target="_blank">
+                                    <img src={gmail} alt="Gmail Link" className={"contactPhotos"}/>
+                                </a>
 
-                        </Col>
-                        <Col lg={1}>
-                            <a href="https://www.linkedin.com/in/david-duu" target="_blank">
-                                <img src={linkedin} alt="LinkedIn Link" className={"contactPhotos2"} />
-                            </a>
+                                <a href="https://www.linkedin.com/in/david-duu" target="_blank">
+                                    <img src={linkedin} alt="LinkedIn Link" className={"contactPhotos2"} />
+                                </a>
+                            </div>
+
+
                         </Col>
                         <Col lg={5}></Col>
                     </Row>

@@ -13,6 +13,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.cenetered{
+  display:flex;
+  justify-content:center;
+  align-item:center
+}
 
 .App-header {
   background-color: #282c34;
@@ -71,12 +76,14 @@
   height: 10vh;
 }
 .contactPhotos{
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
+  padding: 1vh 1vh 1vh 1vh;
 }
 .contactPhotos2{
-  width: 9vh;
-  height: 9vh;
+  width: 6.5vh;
+  height: 6.5vh;
+  padding: 1vh 1vh 1vh 1vh;
 }
 .centered{
   text-align: center;
@@ -85,3 +92,36 @@
   padding-bottom: 5vh;
 }
 
+.button {
+  border-radius: .5vh;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1vh;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: .5vh;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: -.5vh;
+}
