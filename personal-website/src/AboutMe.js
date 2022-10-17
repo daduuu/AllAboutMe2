@@ -26,7 +26,7 @@ class AboutMe extends Component {
                     <FadeIn delay={50}>
 
 
-                        <Row>
+                        <Row className={"nb"}>
                             <Col lg={4}></Col>
                             <Col lg={3}>
                                 <h1 className="hp1">About Me</h1>
