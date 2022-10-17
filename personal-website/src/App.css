@@ -75,6 +75,10 @@
   width: 10vh;
   height: 10vh;
 }
+.cont{
+  paddingLeft: 2vh;
+  paddingRight: 2vh;
+}
 .contactPhotos{
   width: 8vh;
   height: 8vh;
