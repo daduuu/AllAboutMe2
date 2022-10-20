@@ -63,12 +63,12 @@ class AboutMe extends Component {
                                 <p>UCLA</p>
                                 <p>Computer Science B.S</p>
                                 <p>2021-Present</p>
-                                <button type="button" className="btn button2 p-0 m-0" onClick={this.flipReveal}>
-                                    {!this.state.reveal && <span className={"nb2"}>See What Classes I've Taken!</span>}
-                                    {this.state.reveal && <span className={"nb2"}>Hide Classes I've Taken!</span>}
+                                <button type="button" className="btn button2 m-0" onClick={this.flipReveal}>
+                                    {!this.state.reveal && <span>See What Classes I've Taken!</span>}
+                                    {this.state.reveal && <span>Hide Classes I've Taken!</span>}
                                 </button>
                                 {this.state.reveal && <Row>
-                                    <p>CS111 (Operating System Principles)</p>
+                                    <p className={"nb2"}>CS111 (Operating System Principles)</p>
                                     <p>CS180 (Introduction to Algorithms and Complexity) </p>
                                     <p>CS35L (Software Construction)</p>
                                     <p>CS33 (Introduction to Computer Organization)</p>
@@ -127,7 +127,7 @@ class AboutMe extends Component {
                             <Col></Col>
                             <Col>
                                 <Link to="/Projects" style={{color : "white"}} className={"d-flex justify-content-center"}>
-                                    <button type="button" className="btn btn-dark button" style={{width: "20vh"}}>
+                                    <button type="button" className="btn btn-dark button" style={{width: "25vh"}}>
                                         <span>Check Out My Projects!</span>
                                     </button>
                                 </Link>
