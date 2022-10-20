@@ -127,7 +127,7 @@ class AboutMe extends Component {
                             <Col></Col>
                             <Col>
                                 <Link to="/Projects" style={{color : "white"}} className={"d-flex justify-content-center"}>
-                                    <button type="button" className="btn btn-dark button">
+                                    <button type="button" className="btn btn-dark button" style={{width: "20vh"}}>
                                         <span>Check Out My Projects!</span>
                                     </button>
                                 </Link>
