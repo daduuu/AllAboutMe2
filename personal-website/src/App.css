@@ -95,6 +95,9 @@
 .nb{
   padding-bottom: 5vh;
 }
+.nb2{
+  padding-bottom: 1vh;
+}
 
 .button {
   border-radius: .5vh;
@@ -126,6 +129,41 @@
 }
 
 .button:hover span:after {
+  opacity: 1;
+  right: -.5vh;
+}
+
+.button2 {
+  border-radius: .5vh;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  background-color: transparent;
+  border-color: #ccc;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -1vh;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: .5vh;
+}
+
+.button2:hover span:after {
   opacity: 1;
   right: -.5vh;
 }

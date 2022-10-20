@@ -11,9 +11,16 @@ import {Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 class AboutMe extends Component {
+
     constructor(props) {
         super(props);
+        this.state = {reveal : false};
     }
+
+    flipReveal = () => {
+        this.setState({reveal : !this.state.reveal})
+    }
+
     render() {
         return (
             <div>
@@ -55,12 +62,26 @@ class AboutMe extends Component {
                             <Col lg={2}>
                                 <p>UCLA</p>
                                 <p>Computer Science B.S</p>
-                                <p>I've taken CS111, CS180, CS35L, CS33, Math 115A, Math 131A, Math 61</p>
+                                <p>2021-Present</p>
+                                <button type="button" className="btn button2 p-0 m-0" onClick={this.flipReveal}>
+                                    {!this.state.reveal && <span className={"nb2"}>See What Classes I've Taken!</span>}
+                                    {this.state.reveal && <span className={"nb2"}>Hide Classes I've Taken!</span>}
+                                </button>
+                                {this.state.reveal && <Row>
+                                    <p>CS111 (Operating System Principles)</p>
+                                    <p>CS180 (Introduction to Algorithms and Complexity) </p>
+                                    <p>CS35L (Software Construction)</p>
+                                    <p>CS33 (Introduction to Computer Organization)</p>
+                                    <p>Math 115A (Linear Algebra)</p>
+                                    <p>Math 131A (Real Analysis)</p>
+                                    <p>Math 61 (Discrete Structures)</p>
+                                </Row>}
+
                             </Col>
                             <Col lg={3}></Col>
 
                         </Row>
-                        <Row>
+                        <Row className={"nb"}>
                             <Col lg={4}></Col>
                             <Col lg={3}><img src={bialigy} alt="bialigy image" /></Col>
                             <Col lg={2}>
@@ -72,6 +93,36 @@ class AboutMe extends Component {
                             <Col lg={3}></Col>
 
                         </Row>
+                        <Row className={"nb"}>
+                            <Col></Col>
+                            <Col><h1>Programming Languages</h1></Col>
+                            <Col></Col>
+                        </Row>
+                        <Row>
+                            <Col lg={4}></Col>
+                            <Col lg={3}>
+                                <p>C++</p>
+                                <p>C</p>
+                                <p>Java</p>
+                                <p>Python</p>
+                                <p>Javascript</p>
+                                <p>Unix/Linux</p>
+                                <p>Git</p>
+
+                            </Col>
+                            <Col lg={2}>
+                                <p>React</p>
+                                <p>Ajax</p>
+                                <p>Node.js</p>
+                                <p>C#</p>
+                                <p>SQL</p>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                            </Col>
+                            <Col lg={3}></Col>
+                        </Row>
+
+
                         <Row className={"nb"}>
                             <Col></Col>
                             <Col>

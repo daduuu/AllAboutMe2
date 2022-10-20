@@ -6,11 +6,19 @@ import AboutMe from "./AboutMe";
 import Layout from "./Layout";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import TagManager from 'react-gtm-module'
 
 class App extends Component {
   constructor(props) {
     super(props);
+    const tagManagerArgs = {
+      gtmId: 'G-18DL3X0DVS'
+    }
+    TagManager.initialize(tagManagerArgs);
   }
+
+
+
   render() {
     return (
         <div>
