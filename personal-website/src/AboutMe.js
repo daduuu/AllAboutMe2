@@ -97,28 +97,27 @@ class AboutMe extends Component {
                         </Row>
                         <Row className={"nb"}>
                             <Col></Col>
-                            <Col><h1>Programming Languages</h1></Col>
+                            <Col><h1>Programming Skills</h1></Col>
                             <Col></Col>
                         </Row>
                         <Row>
                             <Col lg={4}></Col>
                             <Col lg={3}>
                                 <p>C++</p>
+                                <p>Python</p>
                                 <p>C</p>
                                 <p>Java</p>
-                                <p>Python</p>
-                                <p>Javascript</p>
                                 <p>Unix/Linux</p>
                                 <p>Git</p>
 
                             </Col>
                             <Col lg={2}>
-                                <p>React</p>
-                                <p>Ajax</p>
                                 <p>Node.js</p>
-                                <p>C#</p>
+                                <p>React</p>
+                                <p>Express.js</p>
+                                <p>Javascript</p>
                                 <p>SQL</p>
-                                <p>HTML</p>
+                                <p>PyTorch</p>
                                 <p>CSS</p>
                             </Col>
                             <Col lg={3}></Col>
