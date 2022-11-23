@@ -68,12 +68,14 @@ class AboutMe extends Component {
                                     {this.state.reveal && <span>Hide Classes I've Taken!</span>}
                                 </button>
                                 {this.state.reveal && <Row>
-                                    <p className={"nb2"}>CS111 (Operating System Principles)</p>
-                                    <p>CS180 (Introduction to Algorithms and Complexity) </p>
+                                    <p className={"nb2"}>CS180 (Introduction to Algorithms and Complexity) </p>
+                                    <p>CS111 (Operating System Principles)</p>
+                                    <p>EC ENGR C147 (Neural Networks and Deep Learning)</p>
                                     <p>CS35L (Software Construction)</p>
                                     <p>CS33 (Introduction to Computer Organization)</p>
                                     <p>Math 115A (Linear Algebra)</p>
                                     <p>Math 131A (Real Analysis)</p>
+                                    <p>Math 170E (Probability and Statistics)</p>
                                     <p>Math 61 (Discrete Structures)</p>
                                 </Row>}
 
