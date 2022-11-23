@@ -74,7 +74,8 @@ class Projects extends Component {
                                     <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
                                 <p>Tetrominoes_placer_2d is program written in C++ which solves the exact cover problem, specificially it finds if tetrominoes can be placed on a x by
-                                    y board using “dancing links” from David Knuth's Algorithm X</p>
+                                    y board using “dancing links” from David Knuth's Algorithm X. <a target="_blank" href="https://www.ocf.berkeley.edu/~jchu/publicportal/sudoku/0011047.pdf">
+                                        <img src={link} alt="Github Link" className="linkSmall"/> </a></p>
                             </Col>
                             <Col></Col>
                         </Row>

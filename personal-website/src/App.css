@@ -47,8 +47,13 @@
 }
 
 .link{
-  width: 15px;
-  height: 15px;
+  width: 1vh;
+  height: 1vh;
+}
+.linkSmall{
+  width: .75vh;
+  height: .75vh;
+  margin-bottom: .5vh;
 }
 
 .viewport100{
