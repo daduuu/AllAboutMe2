@@ -65,6 +65,7 @@
   background-size: cover;
   background-position: center;
   color:white;
+  background-repeat:   no-repeat;
   text-align: center;
   font-size: xx-large;
 }

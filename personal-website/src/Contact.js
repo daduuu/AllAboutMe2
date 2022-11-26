@@ -15,7 +15,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <Container fluid className={"px-5"}>
+                <Container fluid className={"px-3"}>
                     <div className={"nb"}>
 
                     </div>

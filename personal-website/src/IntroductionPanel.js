@@ -15,7 +15,7 @@ class IntroductionPanel extends Component {
     render() {
         return (
             <div class={"code viewport100"} >
-                <Container fluid className={"px-5"}>
+                <Container fluid className={"px-3"}>
                     <FadeIn>
                         <Row className={"align-items-center viewport100"}>
                             <Col>
