@@ -9,6 +9,7 @@ import ucla from './img/ucla.jpeg'
 import {Link} from "react-router-dom";
 import {Button} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+import link from "./img/link.png";
 
 class AboutMe extends Component {
 
@@ -57,6 +58,22 @@ class AboutMe extends Component {
                         <Row className={"nb"}>
                             <Col lg={4}></Col>
                             <Col lg={3}>
+                                <p><img src={ucla} alt="Ucla Image" className="ucla"/></p>
+                            </Col>
+                            <Col lg={2}>
+
+                                <p>Braine Lab at UCLA <a target="_blank"  href="http://www.vwaniroychowdhury.com/students">
+                                    <img src={link} alt="Github Link" className="link"/>
+                                </a></p>
+                                <p>Student Researcher</p>
+                                <p>2022-Present</p>
+                                <p>Student ML Researcher exploring novel problems in situational modeling and image recognition.</p>
+                            </Col>
+                            <Col lg={3}></Col>
+                        </Row>
+                        <Row className={"nb"}>
+                            <Col lg={4}></Col>
+                            <Col lg={3}>
                                 <p><img src={ucla} alt="Ucla Image" class="ucla" /></p>
                             </Col>
                             <Col lg={2}>
@@ -68,15 +85,20 @@ class AboutMe extends Component {
                                     {this.state.reveal && <span>Hide Classes I've Taken!</span>}
                                 </button>
                                 {this.state.reveal && <Row>
-                                    <p className={"nb2"}>CS180 (Introduction to Algorithms and Complexity) </p>
-                                    <p>CS111 (Operating System Principles)</p>
-                                    <p>EC ENGR C147 (Neural Networks and Deep Learning)</p>
+                                    <p className={"nb2"}>CS180 (Data Structures and Algorithms) </p>
                                     <p>CS35L (Software Construction)</p>
-                                    <p>CS33 (Introduction to Computer Organization)</p>
+                                    <p>EC ENGR C147 (Neural Networks and Deep Learning)</p>
+                                    <p>CS M146 (Machine Learning)</p>
+                                    <p>CS 131 (Programming Langauges)</p>
+                                    <p>CS111 (Operating Systems)</p>
+                                    <p>CS118 (Computer Networking)</p>
+                                    <p>CS181 (Automata Theory)</p>
+                                    <p>CS33, M151B (Computer Architecture)</p>
+                                    <p>Math 61 (Discrete Math)</p>
                                     <p>Math 115A (Linear Algebra)</p>
-                                    <p>Math 131A (Real Analysis)</p>
+                                    <p>Math 131A, 131B (Real Analysis I & II)</p>
                                     <p>Math 170E (Probability and Statistics)</p>
-                                    <p>Math 61 (Discrete Structures)</p>
+
                                 </Row>}
 
                             </Col>
@@ -89,7 +111,8 @@ class AboutMe extends Component {
                             <Col lg={2}>
                                 <p>Bialigy.com</p>
                                 <p>Full Stack Developer</p>
-                                <p>Created a website based communication board using Javascript, NodeJS/React, and mySQL to facilitate communication between 500+ university students and the instructors at Bialigy. I also developed a website based chemical equation balancer tool for university students to use.
+                                <p>2020-2021</p>
+                                <p>Created communication board to facilitate communication channels between students and instructors. Also created a chemical equation applet.
                                 </p>
                             </Col>
                             <Col lg={3}></Col>
@@ -109,6 +132,9 @@ class AboutMe extends Component {
                                 <p>Java</p>
                                 <p>Unix/Linux</p>
                                 <p>Git</p>
+                                <p>Pandas</p>
+                                <p>HuggingFace</p>
+                                <p>Sklearn</p>
 
                             </Col>
                             <Col lg={2}>
@@ -119,6 +145,8 @@ class AboutMe extends Component {
                                 <p>SQL</p>
                                 <p>PyTorch</p>
                                 <p>CSS</p>
+                                <p>Docker</p>
+                                <p>Bash</p>
                             </Col>
                             <Col lg={3}></Col>
                         </Row>

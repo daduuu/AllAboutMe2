@@ -17,23 +17,25 @@ class Projects extends Component {
             <div>
                 <Container fluid className={"px-3"}>
                     <div className={"nb"}>
-
                     </div>
                     <FadeIn>
 
                         <Row>
                             <Col></Col>
                             <Col lg={4}>
-                                <h2> AllAboutMe2 <a target="_blank" href="https://github.com/daduuu/AllAboutMe2">
-                                    <img src={link} alt="Github Link" class="link"/>
+                                <h2> MBTI Predictor <a target="_blank" href="https://github.com/daduuu/MBTIPredictor">
+                                    <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
-                                <p>The code for this website!</p>
+                                <p>Using state-of-the-art LLMs such as RoBERTa and T5, as well as a baseline LSTM to predict the personality type of a user based on their social media posts. Achieves over 82% test accuracy.</p>
                             </Col>
                             <Col lg={3}>
                                 <h2> Sudokle <a target="_blank" href="https://github.com/daduuu/sudokle">
                                     <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
                                 <p>A Modernized Daily Sudokle Web Game. A new sudokle puzzle is created daily to challenge players. Players with the best times are displayed on the leaderboards. Players can practice by generating a puzzle and solving. Built using Node.js, React, Express.js, mySql, and Javascript. </p>
+
+
+
                             </Col>
 
                             <Col></Col>
@@ -41,31 +43,32 @@ class Projects extends Component {
                         <Row className={"nb"}>
                             <Col></Col>
                             <Col lg={4}>
-                                <h2> RadixTree <a target="_blank" href="https://github.com/daduuu/RadixTree">
+                                <h2> AllAboutMe2 <a target="_blank" href="https://github.com/daduuu/AllAboutMe2">
                                     <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
-                                <p>RadixTree written in C++. Each Node stores a generic type so that the tree can be used for a hashmap that maps strings to a generic type.</p>
+                                <p>The code for this website!</p>
 
 
 
                             </Col>
                             <Col lg={3}>
-                                <h2> Communication Board <a target="_blank" href="https://github.com/daduuu/communication_board">
+                                <h2> RadixTree <a target="_blank" href="https://github.com/daduuu/RadixTree">
                                     <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
-                                <p>Communication Board for students to communicate with instructors. Built using Node.js, Express.js, mySql, and Javascript.</p>
+                                <p>RadixTree written in C++. Each Node stores a generic type so that the tree can be used for a hashmap that maps strings to a generic type.</p>
 
                             </Col>
                             <Col></Col>
                         </Row>
                         <Row className={"nb"}>
                             <Col></Col>
+
                             <Col lg={4}>
-                                <h2> My FNN <a target="_blank" href="https://github.com/daduuu/myFNN">
+
+                                <h2> Communication Board <a target="_blank" href="https://github.com/daduuu/communication_board">
                                     <img src={link} alt="Github Link" className="link"/>
                                 </a></h2>
-                                <p>My FNN (first neural network) implementation using PyTorch. A simple neural network that trains to the FashionMNIST dataset.</p>
-
+                                <p>Communication Board for students to communicate with instructors. Built using Node.js, Express.js, mySql, and Javascript.</p>
 
 
                             </Col>
